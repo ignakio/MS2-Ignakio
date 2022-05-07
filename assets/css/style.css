@@ -279,3 +279,144 @@ h2:after {
     width: 150px;
     height:  150px;
 }}
+
+/*--------------------------------------------Check List intro --------------*/
+
+/* Checklist text boxes */
+#voyage-info{
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+/* Checklist info text box labels */
+.vgr-label{
+    margin: 0;
+    margin-top: 10px;
+}
+
+/*--------------------------------------------Checklist Intro buttons ------------- */
+
+/* Help Btn & Clear Btn position */
+#checklist-intro-btns{
+    text-align: center;
+    justify-content: center;
+}
+
+/* Help Button */
+.help-btn{
+    color: #fff;
+    background-color: #163A51;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 50px;
+}
+
+.help-btn:hover{
+    color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* Reset Button*/
+.clear-btn{
+    color: #163A51;
+    background-color: #F2B940;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 500 ;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*---------------------------------------------------Help Modal -------------*/
+
+/* Modal Icon */
+#wave3{
+    text-align: left;
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+/* Modal paragraph */
+#modal-p{
+    text-align: left;
+}
+
+/*--------------------------------------------Checklist Section ------------------*/
+
+/* Checklist section */
+#checklist-section{
+    background-color: #f0f1f2;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+/* Checklist container */
+.checklist-container {
+    max-width: none;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* Categories */
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #163A51;
+}
+
+.nav-link {
+    color: #003348;
+}
+.nav-link:hover {
+    color: grey;
+}
+
+/*List items*/
+.list-group-item {
+    font-size: 16px;
+}
+
+
+/* Check Button */
+.btn-check {
+    color: #163A51;;
+    background-color:#fff;
+    border: 2px solid #163A51;;
+    border-radius: 50px;;
+    padding: 5px 10px;
+}
+
+.btn-check:hover {
+    color: #fff;
+    background-color:#163A51;;
+    border-radius: 50px;
+}
+
+/* Buy Button */
+.btn-buy {
+    color: #25837E;
+    background-color:#fff;
+    border: 2px solid #25837E;
+    border-radius: 50px;
+    padding: 5px 15px;
+}
+
+.btn-buy:hover {
+    color: #fff;
+    background-color:#25837E;
+    border-radius: 50px;
+}
+
+/* Check List Scroll */
+.tab-pane{
+    height: 550px;
+    overflow-y: scroll;
+}
+
+.list-group-item{
+    cursor: pointer;
+}
+
+/* To hide item on a list when it is checked or to be bought */
+.hideItem{
+    display: none;
+}
