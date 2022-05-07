@@ -601,3 +601,116 @@ h2:after {
     background-color: #ffffff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
+
+/*--------------------------------------------Google Maps --------------------*/
+
+/* To view map*/
+#map {
+    height: 500px;
+    width: 100%;
+}
+
+/* To hide store info */
+.hide{
+    display: none;
+    }
+
+.store{
+    padding-top: 20px ;
+    padding-left: 10px; 
+    margin-top: 20px;
+    text-align: left;
+}
+
+/* Store section size for larger screens */ 
+@media (min-width: 990px){
+.store{
+    margin-top: 125px;
+}
+}
+
+.btn-store-info{
+    color: #ffffff;
+    background-color:#003348;
+    border-radius: 10px;
+}
+
+.btn-store-info:hover {
+    color: #003348;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.store-card-text{
+    font-size: 14px;
+}
+
+/*--------------------------------------------Review carousel ---------------*/
+
+/* Review section */ 
+#reviews-section{
+    background-color: #f0f1f2;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+/* Review carousel */ 
+#carouselExampleCaptions{
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.review-quote{
+    color: #fff;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Review carousel for smaller screens */ 
+@media (min-width: 650px){
+.review-quote{
+    color: #fff;
+    font-size: large;
+    background-color: unset;
+}}
+
+.review-heading{
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #fff;
+}
+
+@media (min-width: 650px){
+.review-heading{
+    color: #fff;
+    font-size: large;
+}}
+
+/*--------------------------------------------Feedback card ------------*/
+
+/* Feedback card */ 
+#feedback-card {
+    width: 80vw;
+    margin-left: 10%;
+    margin-top: 5% ;
+    margin-bottom: 5% ;
+}
+
+.form-row{
+    justify-content: center ;
+    align-items: center;
+}
+
+#feedback-btn{
+    border-radius: 25px;
+    background: #163a51;
+    color: #fff;
+}
+#feedback-title{
+    text-align: center;
+}
+
+.feedback-card-text{
+    font-size: 16px;
+    text-align: center;
+}
