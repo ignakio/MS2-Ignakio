@@ -306,7 +306,7 @@ https://yourgithubusername.github.io/your-repo-name
 ```
 * Any time commits and pushes are sent to Github, the Github Pages site should update shortly after.
 
-To deploy this page to GitHub Pages from its [GitHub repository](), the following steps were taken:
+To deploy this page to GitHub Pages from its [GitHub repository](https://ignakio.github.io/ms2-ignakio/), the following steps were taken:
 
 At the moment of submitting this Milestone project the Development Branch and Master Branch are identical.
 
@@ -321,7 +321,7 @@ Then follow these steps:
 1. Install the Gitpod Browser Extensions for [Chrome](https://www.gitpod.io/docs/browser-extension/)
 2. After installation, restart the browser
 3. Log into [Gitpod](https://www.gitpod.io/) with your Gitpod account.
-4. Navigate to the [Project GitHub repository]()
+4. Navigate to the [Project GitHub repository](https://ignakio.github.io/ms2-ignakio/)
 5. Click the green "Gitpod" button in the top right corner of the repository
 6. This will trigger a new gitpod workspace to be created from the code in GitHub where you can work locally.
 

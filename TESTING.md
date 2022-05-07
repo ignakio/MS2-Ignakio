@@ -2,7 +2,7 @@
 
 [Main README.md file](README.md)
 
-[View live version of website via GitHub Pages]()
+[View live version of website via GitHub Pages](https://ignakio.github.io/ms2-ignakio/)
 ## Testing user stories from the UX section
 1. As a beginner to an intermediate sailor, I want to have guidance on what to pack for a day/overnight trip.
     - In the Checklist section there is a comprehensive list of items divided into different categories so the user is guided on what to pack. The user does not have to think of items themselves or research for items.
@@ -73,7 +73,7 @@ To test the responsiveness of the live website and functionalities on different 
     1. Carousel issue on some wider /landscape devices.
 * **Fix** 
     1. Fix the carousel by using bootstrap code to ensure responsiveness on all devices.
-- Final version: [To view site on Responsinator ]()
+- Final version: [To view site on Responsinator ](https://ignakio.github.io/ms2-ignakio/)
 
 ### [Am I Responsive](http://ami.responsivedesign.is/)
 To view images of the website on different devices.
@@ -101,7 +101,7 @@ To detect errors and potential problems in your JavaScript code.
 * **Fix** 
     1. As I got this line of code from [Google](https://developers.google.com/maps/documentation/javascript/marker-clustering), I did not remove the word "new".
 
-- Final version: no errors for ) if add /*jshint esversion: 6 */ at top of code so that JSHint does not raise unnecessary warnings for ECMAScript 6 features.
+- Final version: no errors for https://ignakio.github.io/ms2-ignakio/) if add /*jshint esversion: 6 */ at top of code so that JSHint does not raise unnecessary warnings for ECMAScript 6 features.
 
 ### [W3C CSS validation](https://jigsaw.w3.org/css-validator/)
 To validate the CCS code of the project.
@@ -136,7 +136,7 @@ To validate the HTML code of the project.
     3. Add "alt" attributes to 3 carousel images.
     4. Add identical for and id elements for label and input fields.
     5. Remove aria-describedby attribute.
-- Final version: no errors or warnings for )
+- Final version: no errors or warnings for https://ignakio.github.io/ms2-ignakio/)
 - ![HTMl Validation](assets/testing_images/htmlvalidator.png)
 
 ### Google Dev Tool 
@@ -145,7 +145,7 @@ To check for errors in JavaScript code.
 1. Error was showing up relating to "if (currentPackedItems.includes(elementText))"  in line 14 saying that currentPackedItems was not declared yet. This only occured if the page is opened for the first time and no data was selected previously.
 * **Fix** 
 1. Becuase it there was no value yet (nothing stored), an error was returned. The fix was: Add "[]" so that error is not returned if no data stored.
-- Final version: no errors or warnings for )
+- Final version: no errors or warnings for https://ignakio.github.io/ms2-ignakio/)
 - ![Google Dev Tool](assets/testing_images/googledevtool.png)
 
 ## Manual testing of all elements and functionality on every page
