@@ -293,16 +293,32 @@ Testing information can be found in separate [TESTING.md file](TESTING.md)
 <a></a>
 ## **Deployment**
 
-This project was developed using the [Gitpod IDE](https://www.gitpod.io/), committed to git and pushed to GitHub using the built-in function within Gitpod. After writing the code, committing and pushing it to GitHub:
+## Forking the GitHub Repository
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-#### Log into GitHub.
-* Navigate to the repository on github and click **Settings**.
-* From there, go to the **Source section** within the Github Pages section.
-* Select **master branch** on the dropdown menu, and click save.
-* Now the website is live on:
+Log in to GitHub and locate the GitHub Repository.
+At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+You should now have a copy of the original repository in your GitHub account.
+<br />
 
-```
-https://yourgithubusername.github.io/your-repo-name
+## Making a Local Clone
+Log in to GitHub and locate the GitHub Repository.
+Under the repository name, click "Clone or download".
+To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+Open Git Bash.
+Change the current working directory to the location where you want the cloned directory to be made.
+Type git clone, and then paste the URL you copied.
+<br/>
+
+## Github Pages
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/).
+2. At the top of the Repository locate the "Settings".
+3. Click on "Pages" will open "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Main Branch".
+5. The page will automatically refresh.
+6. At the top near github header to locate the now published site [link](https://ignakio.github.io/ms2-ignakio/)
+
+
 ```
 * Any time commits and pushes are sent to Github, the Github Pages site should update shortly after.
 
