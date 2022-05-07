@@ -2,7 +2,7 @@
 
 ![Mockup image](assets/wireframes/voyager-mockup.png)
 
-[View live version of website via GitHub Pages]()
+[View live version of website via GitHub Pages](https://ignakio.github.io/ms2-ignakio/)
 
 A sailing voyage needs some planning even for an experienced sailor. Voyager is a checklist for Sailors to pack & plan before they set off on an overnight voyage. 
 
