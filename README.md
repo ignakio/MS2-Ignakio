@@ -318,8 +318,6 @@ Type git clone, and then paste the URL you copied.
 5. The page will automatically refresh.
 6. At the top near github header to locate the now published site [link](https://ignakio.github.io/ms2-ignakio/)
 
-
-```
 * Any time commits and pushes are sent to Github, the Github Pages site should update shortly after.
 
 To deploy this page to GitHub Pages from its [GitHub repository](https://ignakio.github.io/ms2-ignakio/), the following steps were taken:
