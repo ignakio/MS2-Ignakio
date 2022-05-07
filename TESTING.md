@@ -73,7 +73,7 @@ To test the responsiveness of the live website and functionalities on different 
     1. Carousel issue on some wider /landscape devices.
 * **Fix** 
     1. Fix the carousel by using bootstrap code to ensure responsiveness on all devices.
-- Final version: [To view site on Responsinator ](https://ignakio.github.io/ms2-ignakio/)
+- Final version: [To view site on Responsinator ](https://www.responsinator.com/?url=https%3A%2F%2Fignakio.github.io%2Fms2-ignakio%2F)
 
 ### [Am I Responsive](http://ami.responsivedesign.is/)
 To view images of the website on different devices.
