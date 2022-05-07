@@ -14,3 +14,39 @@ section {
 html {
     scroll-behavior: smooth;
 }
+
+/*---------------------------------------------- Specific Heading Styles ----------------*/
+
+.hero-text{
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.sections-title {
+    position: relative;
+    font-weight: 300;
+    padding-bottom: 1%;
+    font-size: 30px;
+    color: #163a51;
+}
+
+h2:after {
+    content: '';
+    position: absolute;
+    width: 10%;
+    height: 5px;
+    background: #f2b940;
+    bottom: 0;
+    border-radius: 999px;
+    left: 45%
+}
+
+.checklist-headings{
+    font-size: 20px;
+    font-weight: 500;
+    color: #163A51;
+    padding-top: 50px;
+}
