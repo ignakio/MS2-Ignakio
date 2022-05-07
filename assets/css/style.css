@@ -497,3 +497,107 @@ h2:after {
 .fa-trash{
     pointer-events: none;
 }
+
+/*-------------------------------------------- Already Packed Section -----------------*/
+
+/* Already packed card */ 
+#packed-card{
+    height: 400px;
+}
+
+/* Already packed card size larger screens*/ 
+@media (min-width: 990px){
+#packed-card{
+    height: 600px;
+}
+}
+
+#packed-body{
+    text-align: left;
+}
+
+/*--------------------------------------------To Buy Section --------------------*/
+
+/* Buy card size */ 
+#buy-card{
+    height: 400px;
+}
+
+/* Buy card size for larger screens */ 
+@media (min-width: 990px){
+#buy-card{
+    height: 600px;
+}
+}
+
+#buy-body{
+    text-align: left;
+}
+
+.btn-position{
+    display:inline-block;
+}
+
+/*--------------------------------------------Boat Icon -------------------*/
+
+/* Boat icon for smaller screens */ 
+.boat-icon{
+    text-align: center;
+}
+
+/* Hide Boat icon for larger screens */ 
+@media (min-width: 990px){
+.boat-icon{
+    display:none;
+}
+}
+
+/*--------------------------------------------Find a Store Section ------------*/
+
+/* Find a Store section */ 
+#store-section{
+    padding-bottom: 20px;
+}
+
+/* Find a Store section container */ 
+.store-container{
+    max-width: none;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: center ;
+    align-items: center;
+}
+
+/* Online store section container */ 
+.online-wrapper{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Store section */ 
+.store-text{
+    text-align: center;
+    font-size: 25px;
+}
+
+.store-p{
+    font-size: 17px;
+}
+
+.shop-row{
+    justify-content: center ;
+    align-items: center;
+}
+
+.btn-store{
+    color: #ffffff;
+    background-color:#003348;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.btn-store:hover {
+    color: #003348;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
