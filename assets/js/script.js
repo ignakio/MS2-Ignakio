@@ -202,3 +202,37 @@ function deleteCheck(e) {
     var item = e.target;
     item.parentElement.parentElement.remove(); 
 }
+
+//CHECKLIST "CLEAR THE DECKS" BUTTON FEATURE
+/* Function for clear localStorage - orginal code for function from https://stackoverflow.com/questions/19246053/add-or-clear-localstorage-on-button-click-and-show-the-value-in-html */
+function clearLocalStorage(){
+    localStorage.clear();
+}
+// To reset page
+var resetPage = document.getElementById('resetbutton');
+resetPage.addEventListener('click', clearLocalStorage);
+
+// PAGE SCROLL UP FEATURE
+/** Add scroll up function
+orginal code from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp with modifications for project
+*/
+//Get the button
+var scrollUpButton = document.getElementById("scrollButton");
+    // When the user scrolls down 40px from the top of the document, show the button
+    window.onscroll = function() {
+        scrollFunction(); 
+    };
+    // To set the paramaters for the scroll function
+    function scrollFunction() {
+        if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+        scrollUpButton.style.display = "block";
+        } else {
+        scrollUpButton.style.display = "none";
+        }
+    }
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    
