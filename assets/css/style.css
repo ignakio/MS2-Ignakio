@@ -1,0 +1,16 @@
+/*---------------------------------------------- General Styles --------------*/
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    color: #003348;
+}
+
+section {
+    margin-top: 40px ;
+}
+
+
+/* original code credit: https://css-tricks.com/snippets/jquery/smooth-scrolling/*/
+html {
+    scroll-behavior: smooth;
+}
